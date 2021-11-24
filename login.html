@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log in</title>
+	<style type="text/css">
+		*{
+        font-family: verdana;
+      }
+      .hh1{
+        text-align: center;
+        font-family: courier new;
+      }
+      .form1{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: 30%;
+        border: 1px solid grey;
+        height: auto;
+        width: 500px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 9px;
+        box-shadow: 8px 8px 8px grey;
+      }
+      .form1 p{
+      	font-size: 12px;
+      }
+      .in1{
+        border-radius: 9px;
+        border-color: #ff8080;
+        font-size: 15px;
+        float: right;
+        padding-right: 70px;
+        margin-right: 20px;
+
+      }
+      .in2{
+        font-size: 20px;
+        color: white;
+        background-color: #9966ff;
+        border-radius: 5px;
+        text-decoration: none;
+        border-right-width: 0px;
+      }
+	</style>
+</head>
+<body>
+	<h1 class="hh1">Welcome to the <a href="login.html">Log in</a> page!</h1>
+	<div class="form1">
+	<form>
+		<label for="email">Email id</label>
+		<input class="in1" type="email" name="email" id="email" placeholder="Please enter your email-id" required><br><br>
+		<label for="password1">Password</label>
+		<input class="in1" type="password" name="password" id="password1" placeholder="Enter your password" required><br><br>
+		<button class="in2">Forgot password</button>
+		<button class="in2" type="submit">Log in</button><br><br>
+
+		<p>Not registered? Go to the <a href="index.html">Registration</a> page</p>
+
+	</form>
+	</div>
+</body>
+</html>
