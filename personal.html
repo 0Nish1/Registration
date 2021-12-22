@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+    <style>
+      *{
+        margin-top: 0px;
+        font-family: verdana;
+      }
+      .hh1{
+        text-align: center;
+        font-family: courier new;
+      }
+      .form1{
+        /*text-align: center;*/
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: 30%;
+        border: 1px solid grey;
+        height: auto;
+        width: 500px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 9px;
+        box-shadow: 8px 8px 8px grey;
+        background-image: linear-gradient(to bottom right, #79d279, white);
+      }
+      .form1 label{
+      	padding-left: 20px;
+      	text-align: left;
+      }
+      .in1{
+        border-radius: 9px;
+        border-color: green;
+        font-size: 15px;
+        float: right;
+        padding-right: 50px;
+        margin-right: 10px;
+
+      }
+      .in2{
+        font-size: 20px;
+        color: white;
+        background-color: red;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-left: 200px;
+      }
+      .form1 p{
+        font-size: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="hh1"><h1>Welcome to the personal details page!</h1>
+    <h3>Here you can edit all your personal details or can go back to <a href="login.html">login</a> page</h3>
+    </div>
+    <div class="form1">
+      <form action="login.html">   <!-- action="/action_page.php" -->
+      <label for="fname">First name</label>
+      <input class="in1" type="text" name="fname" id="fname" placeholder="Enter first name" required><br><br>
+      <label for="lname">Last name</label>
+      <input class="in1" type="text" name="lname" id="lname" placeholder="Enter last name" required><br><br>
+      
+      <label for="email1">Email-id</label>
+      <input class="in1" type="email" name="email" id="email1" placeholder="Enter your email-id" required><br><br>
+      
+      <label for="phone">Phone no.</label>
+      <input class="in1" type="number" name="phone" id="phone" placeholder="Enter your phone no." required><br><br>
+      
+      <label for="aadhaar">Aadhaar</label>
+      <input class="in1" type="number" name="aadhar" id="aadhaar" placeholder="Enter your aadhaar no." required><br><br>
+
+      <label for="pin">Pin code</label>
+      <input class="in1" type="number" name="pin" id="pin" placeholder="Enter your pin code" required><br><br>
+
+      <label for="state">State</label>
+      <input class="in1" type="text" name="state" id="state" placeholder="State where you live in" required><br><br>
+      
+      <label for="dob">Date of birth</label>
+      <input class="in1" type="date" name="dob"><br><br>
+      
+      <label for="sex">Sex</label>
+      <select class="in1" id="sex" required>
+  		<option value="margin-left">Male</option>
+  		<option value="female">Female</option>
+  		<option value="others">Others</option>
+      </select><br><br>
+
+      <label for="edu">Education level</label>
+      <select class="in1" id="edu" required>
+  		<option value="undergraduate">Undergraduate</option>
+  		<option value="graduate">Graduate</option>
+  		<option value="school">In school</option>
+  		<option value="illiterate">Illiterate</option>
+      </select><br><br>
+
+      <label for="clssx">Class X marks(%)</label>
+      <input class="in1" type="number" name="clssx" id="clssx" placeholder="% scored" required><br><br>
+
+      <label for="clssxii">Class XII marks(%)</label>
+      <input class="in1" type="number" name="clssxii" id="clssxii" placeholder="% scored" required><br><br>
+
+     
+      <label for="password">Password</label>
+      <input class="in1" type="password" name="password" id="password" placeholder="Enter password" required><br>
+      <br>
+      <button class="in2" type="submit" onclick="myFunction()">Save</button>
+      </form>
+    </div>  
+
+    <!-- <script type="text/javascript"> -->
+      <!-- function myFunction() { -->
+        <!-- alert("You have successfully edited your personal details"); -->
+      <!-- } -->
+    <!-- </script> -->
+  </body>
+</html>
